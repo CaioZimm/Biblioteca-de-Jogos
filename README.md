@@ -778,11 +778,7 @@ HTML
 
   </body>
 </html>
-src/main/resources/templates/formulario-jogo.html (Formulário - CORRIGIDO)
-
-Nota: Esta é a correção funcional. Adicionamos um <select> para listar as categorias carregadas pelo Controller.
-
-HTML
+src/main/resources/templates/formulario-jogo.html
 
 <!DOCTYPE html>
 <html
@@ -913,12 +909,9 @@ target/
 Passo 3: Orquestrando com Docker Compose (App + DB + pgAdmin)
 Crie um arquivo docker-compose.yml na raiz do projeto. Este arquivo define todos os serviços (aplicação, banco de dados e pgAdmin) e como eles se conectam.
 
-YAML
 
 version: "3.8"
-
 services:
-
 # Serviço do banco de dados PostgreSQL
 
 db:
